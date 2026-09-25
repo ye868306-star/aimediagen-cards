@@ -1,0 +1,15 @@
+{
+  "version": "1.1.37",
+  "from": "1.1.36",
+  "build": "2026-09-25 08:42",
+  "notes": [
+    "声音复刻只保留硅基流动（腾讯云那句话复刻已下线：接口和入口都撤了）"
+  ],
+  "force": false,
+  "package": {
+    "url": "https://gitee.com/aimediagen/aimediagen-cards/releases/download/v1.1.37/update-1.1.37.zip",
+    "size": 19629808,
+    "sha256": "95860dabdfceed0ad7d946ec8dbfa02fbd8a65e1278573456100626767fdb1dc"
+  },
+  "files": 4
+}
