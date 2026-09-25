@@ -1,0 +1,167 @@
+{
+  "version": 2,
+  "updated": "2026-09-25",
+  "note": "画面指纹处理方案：平台升级了就改这个文件（或从网上更新），不用重新打包程序。数值可以写一个数，也可以写成 [最小, 最大] 区间，每次合成在区间里随机取。",
+  "advice": "只对自己拍的素材用。搬别人的视频去洗，出事是自己账号的事。",
+  "profiles": {
+    "light": {
+      "name": "轻（几乎看不出）",
+      "rotate": [
+        0.0008,
+        0.002
+      ],
+      "zoom": [
+        1.006,
+        1.014
+      ],
+      "bright": [
+        0.003,
+        0.009
+      ],
+      "contrast": [
+        1.004,
+        1.01
+      ],
+      "sat": [
+        1.005,
+        1.014
+      ],
+      "crf": [
+        19,
+        21
+      ],
+      "gop": [
+        48,
+        72
+      ],
+      "preset": "veryfast",
+      "brands": [
+        "isom",
+        "mp42"
+      ],
+      "movflags": [
+        "+faststart"
+      ],
+      "audio": [
+        "160k",
+        "192k"
+      ]
+    },
+    "medium": {
+      "name": "中（推荐）",
+      "rotate": [
+        0.002,
+        0.004
+      ],
+      "zoom": [
+        1.014,
+        1.028
+      ],
+      "bright": [
+        0.006,
+        0.018
+      ],
+      "contrast": [
+        1.008,
+        1.02
+      ],
+      "sat": [
+        1.01,
+        1.025
+      ],
+      "crf": [
+        19,
+        21
+      ],
+      "gop": [
+        48,
+        72
+      ],
+      "preset": "veryfast",
+      "brands": [
+        "isom",
+        "mp42",
+        "avc1",
+        "iso2"
+      ],
+      "movflags": [
+        "+faststart",
+        "+faststart+delay_moov"
+      ],
+      "audio": [
+        "160k",
+        "192k",
+        "224k"
+      ]
+    },
+    "heavy": {
+      "name": "重（改得更彻底，个别老软件可能不认）",
+      "rotate": [
+        0.004,
+        0.008
+      ],
+      "zoom": [
+        1.026,
+        1.045
+      ],
+      "bright": [
+        0.012,
+        0.028
+      ],
+      "contrast": [
+        1.015,
+        1.032
+      ],
+      "sat": [
+        1.018,
+        1.036
+      ],
+      "crf": [
+        20,
+        22
+      ],
+      "gop": [
+        36,
+        60
+      ],
+      "preset": "veryfast",
+      "brands": [
+        "isom",
+        "mp42",
+        "avc1",
+        "iso2",
+        "mp41",
+        "dash"
+      ],
+      "movflags": [
+        "+faststart+frag_keyframe+empty_moov",
+        "+faststart"
+      ],
+      "audio": [
+        "128k",
+        "160k",
+        "192k",
+        "224k"
+      ]
+    }
+  },
+  "platforms": {
+    "抖音": "medium",
+    "快手": "medium",
+    "视频号": "light",
+    "小红书": "medium",
+    "其它": "medium"
+  },
+  "history": [
+    {
+      "version": 1,
+      "date": "2026-09-25",
+      "change": "第一版：微旋转 + 缩放 + 色彩微调 + 容器 brand/movflags + 清元数据 + GOP/音频参数随机"
+    },
+    {
+      "version": 2,
+      "date": "2026-09-25",
+      "change": "加强重档：容器 brand 多一种、音频码率多档；中档增加 moov 延迟写变体"
+    }
+  ]
+}
