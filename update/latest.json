@@ -1,19 +1,20 @@
 {
-  "version": "1.1.39",
-  "from": "1.1.38",
-  "build": "2026-09-25 19:30",
+  "version": "1.1.40",
+  "from": "1.1.39",
+  "build": "2026-09-25 20:27",
   "notes": [
-    "升级更稳：一个下载源出问题会自动换另一个源"
+    "账号列表右键就能直达后台（磁力金牛/创作者中心/作品管理/快手小店/主页），并且带着这个号的登录态",
+    "提取文案加了一键复制"
   ],
   "force": false,
   "package": {
-    "url": "https://gitee.com/aimediagen/aimediagen-cards/releases/download/v1.1.39/update-1.1.39.zip",
+    "url": "https://gitee.com/aimediagen/aimediagen-cards/releases/download/v1.1.40/update-1.1.40.zip",
     "urls": [
-      "https://gitee.com/aimediagen/aimediagen-cards/releases/download/v1.1.39/update-1.1.39.zip",
-      "https://github.com/ye868306-star/aimediagen-cards/releases/download/v1.1.39/update-1.1.39.zip"
+      "https://gitee.com/aimediagen/aimediagen-cards/releases/download/v1.1.40/update-1.1.40.zip",
+      "https://github.com/ye868306-star/aimediagen-cards/releases/download/v1.1.40/update-1.1.40.zip"
     ],
-    "size": 19634262,
-    "sha256": "4eb1f9d18450f70ba8eb2689ce0964dd35f0cdf367d3537e6205a98a57fddebe"
+    "size": 19768926,
+    "sha256": "d59f767a9dc1da477543d1e6b8252758158a965ea4b215f73504dd16c7cbccda"
   },
-  "files": 4
+  "files": 12
 }
