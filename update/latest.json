@@ -1,19 +1,19 @@
 {
-  "version": "1.1.38",
-  "from": "1.1.37",
-  "build": "2026-09-25 19:02",
+  "version": "1.1.39",
+  "from": "1.1.38",
+  "build": "2026-09-25 19:30",
   "notes": [
-    "卡库、更新清单、画面指纹方案支持多来源：Gitee 打不开时自动切 GitHub"
+    "升级更稳：一个下载源出问题会自动换另一个源"
   ],
   "force": false,
   "package": {
-    "url": "https://gitee.com/aimediagen/aimediagen-cards/releases/download/v1.1.38/update-1.1.38.zip",
+    "url": "https://gitee.com/aimediagen/aimediagen-cards/releases/download/v1.1.39/update-1.1.39.zip",
     "urls": [
-      "https://gitee.com/aimediagen/aimediagen-cards/releases/download/v1.1.38/update-1.1.38.zip",
-      "https://github.com/ye868306-star/aimediagen-cards/releases/download/v1.1.38/update-1.1.38.zip"
+      "https://gitee.com/aimediagen/aimediagen-cards/releases/download/v1.1.39/update-1.1.39.zip",
+      "https://github.com/ye868306-star/aimediagen-cards/releases/download/v1.1.39/update-1.1.39.zip"
     ],
-    "size": 19633612,
-    "sha256": "f4ea1d3c5c00927c84c4458ed8afee8b2d6c411a7aafb7c173791000995e05b0"
+    "size": 19634262,
+    "sha256": "4eb1f9d18450f70ba8eb2689ce0964dd35f0cdf367d3537e6205a98a57fddebe"
   },
   "files": 4
 }
