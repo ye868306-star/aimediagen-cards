@@ -1,15 +1,19 @@
 {
-  "version": "1.1.37",
-  "from": "1.1.36",
-  "build": "2026-09-25 08:42",
+  "version": "1.1.38",
+  "from": "1.1.37",
+  "build": "2026-09-25 19:02",
   "notes": [
-    "声音复刻只保留硅基流动（腾讯云那句话复刻已下线：接口和入口都撤了）"
+    "卡库、更新清单、画面指纹方案支持多来源：Gitee 打不开时自动切 GitHub"
   ],
   "force": false,
   "package": {
-    "url": "https://gitee.com/aimediagen/aimediagen-cards/releases/download/v1.1.37/update-1.1.37.zip",
-    "size": 19629808,
-    "sha256": "95860dabdfceed0ad7d946ec8dbfa02fbd8a65e1278573456100626767fdb1dc"
+    "url": "https://gitee.com/aimediagen/aimediagen-cards/releases/download/v1.1.38/update-1.1.38.zip",
+    "urls": [
+      "https://gitee.com/aimediagen/aimediagen-cards/releases/download/v1.1.38/update-1.1.38.zip",
+      "https://github.com/ye868306-star/aimediagen-cards/releases/download/v1.1.38/update-1.1.38.zip"
+    ],
+    "size": 19633612,
+    "sha256": "f4ea1d3c5c00927c84c4458ed8afee8b2d6c411a7aafb7c173791000995e05b0"
   },
   "files": 4
 }
