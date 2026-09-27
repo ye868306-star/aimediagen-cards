@@ -1,20 +1,19 @@
 {
-  "version": "1.1.40",
-  "from": "1.1.39",
-  "build": "2026-09-25 20:27",
+  "version": "1.6.4",
+  "from": "1.6.3",
+  "build": "2026-09-27 16:52",
   "notes": [
-    "账号列表右键就能直达后台（磁力金牛/创作者中心/作品管理/快手小店/主页），并且带着这个号的登录态",
-    "提取文案加了一键复制"
+    "修混剪变体时长：按配音长度从素材池随机组合、不够自动循环补齐（以前每条变体只取一段素材，配音长时容易出十几秒的废片）；另含账号管理六路CK与扫码登录优化、作品管理、数据优化金牛报表、快分销批量加货架等"
   ],
   "force": false,
   "package": {
-    "url": "https://gitee.com/aimediagen/aimediagen-cards/releases/download/v1.1.40/update-1.1.40.zip",
+    "url": "https://gitee.com/aimediagen/aimediagen-cards/releases/download/v1.6.4/update-1.6.4.zip",
     "urls": [
-      "https://gitee.com/aimediagen/aimediagen-cards/releases/download/v1.1.40/update-1.1.40.zip",
-      "https://github.com/ye868306-star/aimediagen-cards/releases/download/v1.1.40/update-1.1.40.zip"
+      "https://gitee.com/aimediagen/aimediagen-cards/releases/download/v1.6.4/update-1.6.4.zip",
+      "https://github.com/ye868306-star/aimediagen-cards/releases/download/v1.6.4/update-1.6.4.zip"
     ],
-    "size": 19768926,
-    "sha256": "d59f767a9dc1da477543d1e6b8252758158a965ea4b215f73504dd16c7cbccda"
+    "size": 20456483,
+    "sha256": "ab075da98caa74ba39c26d33d54d713db95b7c94860c1ae53b8d4340193ef2a9"
   },
-  "files": 12
+  "files": 4
 }
