@@ -1,19 +1,19 @@
 {
-  "version": "1.6.4",
-  "from": "1.6.3",
-  "build": "2026-09-27 16:52",
+  "version": "1.6.5",
+  "from": "1.6.4",
+  "build": "2026-09-28 11:44",
   "notes": [
-    "修混剪变体时长：按配音长度从素材池随机组合、不够自动循环补齐（以前每条变体只取一段素材，配音长时容易出十几秒的废片）；另含账号管理六路CK与扫码登录优化、作品管理、数据优化金牛报表、快分销批量加货架等"
+    "混剪变体升级：没有口播时按你填的秒数排画面（默认40秒），最多一次出30条；每条从素材里随机切片段重新组合，组合/顺序/切入点都不重样。另：素材名改成产品名后，成片名会跟着产品名走"
   ],
   "force": false,
   "package": {
-    "url": "https://gitee.com/aimediagen/aimediagen-cards/releases/download/v1.6.4/update-1.6.4.zip",
+    "url": "https://gitee.com/aimediagen/aimediagen-cards/releases/download/v1.6.5/update-1.6.5.zip",
     "urls": [
-      "https://gitee.com/aimediagen/aimediagen-cards/releases/download/v1.6.4/update-1.6.4.zip",
-      "https://github.com/ye868306-star/aimediagen-cards/releases/download/v1.6.4/update-1.6.4.zip"
+      "https://gitee.com/aimediagen/aimediagen-cards/releases/download/v1.6.5/update-1.6.5.zip",
+      "https://github.com/ye868306-star/aimediagen-cards/releases/download/v1.6.5/update-1.6.5.zip"
     ],
-    "size": 20456483,
-    "sha256": "ab075da98caa74ba39c26d33d54d713db95b7c94860c1ae53b8d4340193ef2a9"
+    "size": 20624486,
+    "sha256": "25cf441d02c2bf2c3a2852a8175a55f46a616c0f0aeeda9485e86b465349c923"
   },
-  "files": 4
+  "files": 8
 }
